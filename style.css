@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: 'Arial';
+}
+
+.header{
+    top:0;
+    display: flex;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+
+.body {
+    display: flex;
+    min-height: 90vh;
+    background-color: rgb(142, 142, 142);
+    color: black;
+    flex-direction: row;
+}
+
+.styletable{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.tables{
+    margin-left: 150px;
+    width: 230px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+}
+
+.tables th{
+    padding: 5px;
+}
+
+.tables td{
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+
+.left{
+    text-align: left;
+}
+
+.tables tr{
+    transition: all .3s;
+}
+
+.tables tr:hover{
+    background-color: #ccc;
+}
+
+.selected{
+    color: rgb(104, 104, 236);
+}
+
+.right{
+    margin-right: 10px;
+}
+
+.none {
+    color:black;
+}
+
+.div{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.div a{
+    color: black;
+}
+
+.ttRow{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 800px;
+}
+
+.multiplication{
+    margin-left: 300px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+}
+
+.multiplication th{
+    padding: 10px;
+}
+
+.multiplication td{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.multiplication tr{
+    transition: all .3s;
+}
+
+.multiplication tr:hover{
+    background-color: #ccc;
+}
